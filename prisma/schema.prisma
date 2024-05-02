@@ -37,3 +37,6 @@ model Product {
   categoryId         String
   category           Category   @relation(fields: [categoryId], references: [id])
 }
+
+
+//att prisma l
